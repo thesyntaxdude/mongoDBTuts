@@ -4,7 +4,7 @@ const bookSchema = new mongoose.Schema(
   {
     title: { type: String, required: true, trim: true },
     author: { type: String, required: true, trim: true },
-    year: { type: Number, required: true, trim: true },
+    year: { type: Number, required: true, max: 4 },
     genre: { type: String, required: true, trim: true },
     deleted: { type: Boolean, default: false },
   },
