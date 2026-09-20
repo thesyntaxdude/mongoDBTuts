@@ -1,0 +1,17 @@
+{
+  "name": "mongodb_tuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --env-file=.env.local --watch server.js",
+    "start": "node --env-file=.env.prod --watch server.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1",
+    "uuid": "^14.0.2"
+  }
+}
